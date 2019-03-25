@@ -8,8 +8,8 @@ Use this as an example of using git ignore.
 **$ touch .gitignore**
 //create a gitignore file inside of your working directory. This needs to be done in the most parent root.
 
-Using your code editor, open the file (files beginning with . are hidden by default.)
+Using your code editor, open the file (files beginning with . are hidden by default).
 
-Write the files into the .gitignore file you wish to ignore.
+Write the files into the **.gitignore** file you wish to ignore. This should be done after **git init** but before **git add.**
 
 Run through the normal git commands. (git commit and push)

@@ -22,6 +22,6 @@ Use this as an example of using git ignore.
 <br>
 <div>
 Refer to the .gitignoreexample file to see how you can manually write files to be ignored. Note: you do not need to write the file path (/server/node_modules). If you wish to ignore all node_modules folders, you can write just node_modules. GitHub will automatically ignore all instances of the folder within subsequent folders, which is why your .gitignore file needs to be in your most root folder.
-
+<br>
 Refer to the .gitignore file for a standard file setup for ignoring all unnecessary push files.
 </div>

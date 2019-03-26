@@ -3,6 +3,7 @@
 Use this as an example of using git ignore.
 ******************************************************************************************************************************
 <div>
+  
 **$ sudo npm install gitignore -g**
 //Installs gitignore as a global command. Only needs to be done once.
 

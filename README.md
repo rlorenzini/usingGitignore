@@ -15,7 +15,7 @@ Use this as an example of using git ignore.
 
 3. Write the files into the **.gitignore** file you wish to ignore. This can be done after **git init** but needs to be done before **git add.**
 
-**NOTE:** If done before **git init** there will not be a conflict. If done after **git commit** or **git push**, you will need to use **git rm --cached .node_modules** to remove the node_modules folder from the GitHub staging area.
+**NOTE:** If done before **git init** there will not be a conflict. If done after **git commit** or **git push**, you will need to use **git rm --cached .node_modules -r** to remove the node_modules folder from the GitHub staging area.
 
 4. Run through the normal git commands. (git commit and push)
 

@@ -2,7 +2,7 @@
 
 Use this as an example of using git ignore.
 ******************************************************************************************************************************
-<div>
+<br/>
   
 **```$ sudo npm install gitignore -g```**
 <br/>Installs gitignore as a global command. Only needs to be done once. <br/>**NOTE:** this does not create individual files for each folder. The best practice is to install the files into the project folders you are pushing with **git**.
@@ -20,8 +20,7 @@ Use this as an example of using git ignore.
 
 4. Run through the normal git commands. (git add, commit, and push)
 
-<br/>
-Refer to the **.gitignoreexample** file to see how you can manually write files to be ignored. Note: you do not need to write the file path (/server/node_modules). If you wish to ignore all node_modules folders, you can write just node_modules. GitHub will automatically ignore all instances of the file or folder within subsequent folders, which is why your .gitignore file needs to be in your most parent/root folder.
-<br/>
-Refer to the **.gitignore** file for a standard file setup.
-</div>
+<br/>Refer to the **.gitignoreexample** file to see how you can manually write files to be ignored. Note: you do not need to write the file path (/server/node_modules). If you wish to ignore all node_modules folders, you can write just node_modules. GitHub will automatically ignore all instances of the file or folder within subsequent folders, which is why your .gitignore file needs to be in your most parent/root folder.
+
+<br/>Refer to the **.gitignore** file for a standard file setup.
+

@@ -5,7 +5,7 @@ Use this as an example of using git ignore.
 <div>
   
 **```$ sudo npm install gitignore -g```**
-<br/>Installs gitignore as a global command. Only needs to be done once.
+<br/>Installs gitignore as a global command. Only needs to be done once. <br/>**NOTE:** this does not create individual files for each folder. The best practice is to install the files into the project folders you are pushing with **git**.
 
 
 1. **```$ touch .gitignore```**
